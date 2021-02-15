@@ -36,6 +36,7 @@ Teamwork expierence(not IT), professional curiosity, open to new knowledge, mobi
 6. **Code example:**
    ```
    "use strict";
+   
    class RSS_student{
    constructor(name,age,skills = []){
    this.name = name;
@@ -47,7 +48,7 @@ Teamwork expierence(not IT), professional curiosity, open to new knowledge, mobi
    }
    set skills(newSkill){
    return this._skills.push(newSkill)
-   }
+     }
    }
   
    
