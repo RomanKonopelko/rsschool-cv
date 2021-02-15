@@ -1,0 +1,171 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f7fa;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  background: #fff;
+  display: flex;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background: #1e2939;
+  width: 370px;
+  height: 1400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my-photo {
+  width: 370px;
+}
+
+.about-me-container {
+  padding: 90px 110px;
+}
+.my-contacts {
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-right: 40px;
+}
+
+.contacts-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #818790;
+}
+
+.mail {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.tech-skills-soft {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.tech-soft-list {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-left: 54px;
+}
+
+.tech-soft-word {
+  color: #fff;
+}
+
+.profession {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 90px;
+}
+
+.about-me-info {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #676f7a;
+}
+
+.main-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+.container {
+  padding: 30px 0;
+}
+.occupation {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 14px;
+}
+
+.company-occupation {
+  color: #ff6b08;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #676775;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.list-item {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: black;
+  letter-spacing: 0.42px;
+}
+
+.project-link {
+  color: gray;
+  font-weight: 400;
+}
+
+a.project-link {
+  color: #ff6b08;
+}
+
+.main-list {
+  padding-left: 15px;
+}
+
+.academy-name {
+  color: #ff6b08;
+  padding-bottom: 18px;
+}
+
+.department {
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
