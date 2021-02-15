@@ -9,7 +9,7 @@
   * instagram: @roman_dmitrovich
   
   ## About me
-   I'm the member of art itself: got education as an artist in high-school and middle-school; afterwards become a bachelor of choreographic art. I got attracted by the digital world because I can express myself coding just like drawing some landscapes on paper or doing some choreography on the stage. My goal is to become a confident professional in IT industry and make WEB-sites as pieces of art that can impress people.  Development, perseverance, and creative thinking are what help me to move forward.
+   I'm the member of art itself: got education as an artist in high-school and middle-school; afterwards become a bachelor of choreographic art. I got attracted by the digital world because I can express myself coding just like drawing some landscapes on paper or doing some choreography on the stage. My goal is to become a confident professional in IT industry and make WEB-sites as pieces of art that can impress people. Development, perseverance, and creative thinking are what help me to move forward.
    
 ### Privilege:
 
