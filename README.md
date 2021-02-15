@@ -4,5 +4,5 @@
 https://romankonopelko.github.io/rsschool-cv/cv 
 
 
-##cv html+css
+## html+css
 https://romankonopelko.github.io/rsschool-cv/
