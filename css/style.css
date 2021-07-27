@@ -13,6 +13,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.project-descr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: small;
+  color: #676775;
+}
+
 .wrapper {
   background: #fff;
   display: flex;
@@ -24,7 +31,6 @@ body {
 .sidebar {
   background: #1e2939;
   width: 370px;
-  height: 1400px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -143,6 +149,9 @@ body {
   line-height: 24px;
   color: black;
   letter-spacing: 0.42px;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .project-link {
@@ -160,6 +169,7 @@ a.project-link {
 
 .academy-name {
   color: #ff6b08;
+  padding-top: 10px;
   padding-bottom: 18px;
 }
 
