@@ -7,3 +7,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+
+const msg = '135 points. Self scored';
+console.log(msg);
