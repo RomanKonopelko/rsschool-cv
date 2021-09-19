@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/agate.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
   </head>
   <body>
     <!--main container-->
@@ -255,7 +260,29 @@
               </li>
             </ul>
           </div>
+          <div class="container">
+            <h3 class="main-title">Code example</h3>
+            <pre>
+                  <code> 
+  function getSeason(date) {
+  if (!date) return "Unable to determine the time of year!";
+  if (Object.prototype.toString.call(date) !== "[object Date]") {
+    throw new Error();
+  }
 
+  let month = date !== null ? date.getMonth() : undefined;
+
+  if (!isNaN(month) && month !== null) {
+    if (month <= 1 || month === 11) return "winter";
+    if (month <= 4 && month > 1) return "spring";
+    if (month <= 7 && month > 4) return "summer";
+    if (month <= 10 && month > 7) return "autumn";
+  } else {
+    return "Unable to determine the time of year!";
+  }
+}</code>
+</pre>
+          </div>
           <!--Education-->
 
           <div class="container">
@@ -290,4 +317,7 @@
       </section>
     </div>
   </body>
+  <script>
+    hljs.highlightAll();
+  </script>
 </html>
