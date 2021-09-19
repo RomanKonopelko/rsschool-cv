@@ -275,10 +275,10 @@
   let month = date !== null ? date.getMonth() : undefined;
 
   if (!isNaN(month) && month !== null) {
-    if (month < 2 || month === 11) return "winter";
-    if (month < 5 && month > 1) return "spring";
-    if (month < 8 && month > 4) return "summer";
-    if (month < 11 && month > 7) return "autumn";
+    if (month &lt;= 1 || month === 11) return "winter";
+    if (month &lt;= 4 && month > 1) return "spring";
+    if (month &lt;= 7 && month > 4) return "summer";
+    if (month &lt;= 10 && month > 7) return "autumn";
   } else {
     return "Unable to determine the time of year!";
   }
