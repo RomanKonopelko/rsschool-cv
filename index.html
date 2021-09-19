@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My CV</title>
+    <title>My resume</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap"
@@ -20,6 +20,7 @@
     <main>
       <div class="wrapper">
         <section class="sidebar">
+          <h1 class="is-hidden">Hidden title</h1>
           <aside>
             <div class="hamburger-menu">
               <input id="menu__toggle" type="checkbox" />
@@ -274,10 +275,10 @@
   let month = date !== null ? date.getMonth() : undefined;
 
   if (!isNaN(month) && month !== null) {
-    if (month <= 1 || month === 11) return "winter";
-    if (month <= 4 && month > 1) return "spring";
-    if (month <= 7 && month > 4) return "summer";
-    if (month <= 10 && month > 7) return "autumn";
+    if (month < 2 || month === 11) return "winter";
+    if (month < 5 && month > 1) return "spring";
+    if (month < 8 && month > 4) return "summer";
+    if (month < 11 && month > 7) return "autumn";
   } else {
     return "Unable to determine the time of year!";
   }
@@ -321,9 +322,9 @@
         </section>
       </div>
     </main>
+    <script src="./index.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
-  <script src="./index.js"></script>
-  <script>
-    hljs.highlightAll();
-  </script>
 </html>
