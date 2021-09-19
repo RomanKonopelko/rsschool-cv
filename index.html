@@ -14,12 +14,26 @@
     <!--main container-->
     <div class="wrapper">
       <aside class="sidebar">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">Main</a></li>
+            <li><a class="menu__item" href="#">Projects</a></li>
+            <li><a class="menu__item" href="#">Work expirience</a></li>
+            <li><a class="menu__item" href="#">Education</a></li>
+            <li><a class="menu__item" href="contacts">Contacts</a></li>
+          </ul>
+        </div>
         <img class="my-photo" src="./img/cv.jpg" alt="my profile photo" />
 
         <!--My contacts-->
         <div class="my-contacts">
           <h3 class="contacts-title">Contacts</h3>
-          <div>
+          <div id="contacts">
             <a
               class="contacts-link"
               href="https://www.linkedin.com/in/roman-konopelko-b78668189/"
