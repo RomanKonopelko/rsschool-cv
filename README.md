@@ -2,7 +2,7 @@
 
 # PULL REQUEST LINK FOR CROSS-CHECK
 
-https://github.com/RomanKonopelko/rsschool-cv/pull/1
+https://github.com/RomanKonopelko/rsschool-cv/pull/13
 
 ## cv.md
 
