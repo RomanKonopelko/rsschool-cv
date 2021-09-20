@@ -5,12 +5,19 @@
 }
 
 body {
-  background: #f5f7fa;
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 40px;
   font-family: 'Montserrat', sans-serif;
+
+  background-color: #e5e5f7;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #e5e5f7 80px
+    ),
+    repeating-linear-gradient(#f7a34418, #f7954409);
 }
 
 .project-descr {
@@ -21,7 +28,7 @@ body {
 }
 
 .wrapper {
-  background: #fff;
+  background: rgb(255, 255, 255);
   display: flex;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
   max-width: 1200px;
@@ -178,6 +185,51 @@ a.project-link {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
+}
+
+.logo {
+  display: block;
+  width: 32px;
+}
+
+.rss-logo {
+  display: block;
+  width: 100px;
+}
+
+.rss-link {
+  padding-right: 80px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+
+.footer-text.rss-text {
+  padding-left: 80px;
+}
+
+.footer-link:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.footer-link {
+  transform: scale(1);
+  transition-duration: 1s;
+}
+.footer-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ff6b08;
+}
+
+.footer-text + .footer-link {
+  padding-left: 20px;
 }
 
 #menu__toggle {
