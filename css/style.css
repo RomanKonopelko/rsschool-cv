@@ -12,12 +12,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 
   background-color: #e5e5f7;
-  background-image: repeating-radial-gradient(
-      circle at 0 0,
-      transparent 0,
-      #e5e5f7 80px
-    ),
-    repeating-linear-gradient(#f7a34418, #f7954409);
 }
 
 .project-descr {
